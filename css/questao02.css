@@ -7,6 +7,8 @@ body{
 
 header{
     text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     width: 200px;

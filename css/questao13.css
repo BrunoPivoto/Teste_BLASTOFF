@@ -29,6 +29,11 @@ table tr#cabeca{
     padding: 10px;
 }
 
+table td#rodape{
+    background-color: white;
+    border: none;
+}
+
 caption{
     font-size: 18pt;
     margin-bottom: 10px;
@@ -40,5 +45,6 @@ caption{
 a{
     background-color: #606060;
     color: white;
+    padding: 5px;
     margin: 5px;
 }
