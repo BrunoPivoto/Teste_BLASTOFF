@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+ul li{
+    width: 300px;
+    padding: 10px;
+    display: list-item;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}

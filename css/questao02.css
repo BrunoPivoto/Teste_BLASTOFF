@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background: url('../imagens/macaco1.gif') no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+}
+
+a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px; 
+}

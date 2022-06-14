@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background: url('../imagens/macaco2.gif') no-repeat;
+    background-size: cover;
+}
+
+table{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    width: 400px;
+}
+table td{
+    border: 2px solid #606060;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+table tr#cabeca{
+    border: 2px solid #606060;
+    background-color: #2b2a2a;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+caption{
+    font-size: 18pt;
+    margin-bottom: 10px;
+    background-color: #2b2a2a;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    background-color: #606060;
+    color: white;
+    margin: 5px;
+}

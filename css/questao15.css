@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.container {
+    text-align: center;
+    display: grid;
+    height: 75vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "A A A"
+        "B B E"
+        "C D E";
+    color: black;
+    text-align: center;
+}
+div#boxA {
+    text-align: center;
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: A;
+}
+div#boxB {
+    flex: 1;
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: B;
+}
+
+div#boxC {
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: C;
+}
+
+div#boxD {
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: D;
+}
+
+div#boxE {
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: E;
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-areas: 
+            "A A"
+            "B B"
+            "B B"
+            "C D"
+            "E E";
+    }
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 400px 400px;
+    grid-template-areas: 
+        "header header header"
+        "menuu main rightt"
+        "menuu footer footer";
+    color: black;
+    text-align: center;
+}
+
+div#header {
+    text-align: center;
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: header;
+}
+
+div#menu {
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    margin-left: 0px;
+    grid-area: menuu;
+}
+
+div#main {
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: main;
+}
+
+div#right {
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: rightt;
+}
+
+div#footer {
+    background-color: rgb(156, 204, 250);
+    color: black;
+    border: 5px solid rgb(76, 148, 241);
+    padding: 20px;
+    font-size: 150%;
+    grid-area: footer;
+  }
+
+  

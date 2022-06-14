@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 10</title>
+</head>
+<script>
+    function seraChocolate(){
+        sabor = document.getElementById('cSabor').value;
+        if(sabor.toLowerCase() == 'chocolate'){
+            alert('Amo sorvete de chocolate')
+        }
+        else{
+            alert('Prefiro outros sabores')
+        }
+    }
+</script>
+<body>
+    
+    <p style="font-size: 18pt;"><label for="cSabor">Qual o sabor do sorvete: </label><input style="font-size: 18pt;" type="text" id="cSabor"></p>
+    <input style="font-size: 18pt;" type="button" value="Será que amo?" onclick="seraChocolate('Hello Toodoo!')">
+
+    <br><br>
+    <a style="font-size: 18pt;" href="questao08-09.html">Questão anterior</a>
+    <a>&nbsp;</a>
+    <a style="font-size: 18pt;" href="questao11-13.html">Próxima questão</a>
+</body>
+</html>
